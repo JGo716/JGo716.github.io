@@ -1,0 +1,151 @@
+/* MAKE SURE TO STICK TO THE SAME COLOR SCHEME*/
+
+body {
+   /* background-image:url(images/woods.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+    background-color: #916674;
+
+}
+
+p {
+    font-family: Verdana, 'Comic Sans', monospace;
+}
+
+/* ------------- NAVIGATION STARTS ------------- */
+nav {
+   
+    padding-bottom: 150px;
+    font-family: 'Comic Sans', monospace;
+    font-size: 20px;
+    color:#F9F7F1;
+}
+
+
+nav .link a {
+    color: #F9F7F1;
+}
+
+h1 {
+    float: left;
+    font-size: 60px;
+    margin: auto;
+    color: #F9F7F1;  
+}
+
+
+h1:hover {
+    color: #d671ad ;
+}
+
+
+
+nav li {
+    text-decoration: none;
+    display: inline;
+    float: right;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+nav li:hover {
+    background-color: #71b5d6;
+    border-radius: 75px;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: #F9F7F1;
+    text-decoration: none;
+}
+
+.linkedIn{
+    border-radius: 4px;
+    width: 40px;
+}
+
+.emailIcon{
+    border-radius: 4px;
+    width: 40px;
+    background-color: #F9F7F1;
+}
+/* ------------- NAVIGATION ENDS ------------- */
+
+
+
+
+
+
+
+
+/* ------------- CENTER CONTAINER STARTS ------------- */
+.sidesContainer {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-side, .right-side {
+    background-color: #F9F7F1;
+    width: 50%;
+    margin: 10px;
+    
+}
+
+
+/*---LEFT SIDE---*/
+.left-side {
+    float: left;
+  
+}
+
+
+
+
+
+/*---RIGHT SIDE---*/
+.right-side {
+    float: right;
+
+}
+/* ------------- CENTER CONTAINER ENDS ------------- */
+
+
+
+
+
+
+/* ------------- FOOTER STARTS ------------- */
+footer {
+    margin-top: 100px;
+    font-family: 'Comic Sans', monospace;
+    font-size: 15px;
+    color:#F9F7F1;
+    margin-bottom: 50px;
+}
+
+footer li {
+    margin-right: 25px;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+
+}
+
+
+/* ------------- FOOTER ENDS ------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
